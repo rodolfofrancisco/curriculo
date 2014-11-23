@@ -1,0 +1,72 @@
+h1 {
+    border: 1px solid;
+    padding: 15px;
+    margin: 30px;
+    font-size: 25px;
+    border-radius: 3px;
+    font-family: 'Asap', sans-serif;
+    border-radius: 3px;
+}
+
+p {
+    margin-left: 35px;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif, Verdana, Geneva, sans_serif;
+}
+
+li {
+    margin-left: 35px;
+    line-height: 25px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif, Verdana, Geneva, sans_serif;
+    margin-right: 30px;
+}
+
+img {
+    width: 125px;
+    height: 150px;
+}
+
+.div-endereco {
+    width: 75%;
+    float: left;
+}
+
+.div-perfil {
+    width: 10%;
+    float: left;
+}
+
+.div-perfil p {
+    margin-left: 15px;
+}
+
+.div-foto {
+    display: inline;
+}
+
+.center {
+    text-align: center;
+}
+
+.conteiner {
+    max-width: 1130px!important;
+    margin: 0 auto;
+}
+
+li + li {
+    padding-top: 10px;
+}
+
+.div-curriculos {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -30px;
+}
+
+.estilo-font-1 {
+    line-height: 25px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif, Verdana, Geneva, sans_serif;
+}

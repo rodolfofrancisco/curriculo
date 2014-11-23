@@ -3,69 +3,13 @@
 <html>
     <head>
         <title>Curriculum</title>
+        <script src="assets/jquery-2.1.1.js"></script>
+        <script src="assets/jquery-ui-1.11.2/jquery-ui.js"></script>
+        <script src="assets/dist/js/bootstrap.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-        <style>
-            h1 {
-                border: 1px solid;
-                padding: 15px;
-                margin: 30px;
-                font-size: 25px;
-                border-radius: 3px;
-                font-family: 'Asap', sans-serif;
-                border-radius: 3px;
-            }
-            
-            p {
-                margin-left: 35px;
-                line-height: 10px;
-                font-size: 17px;
-                font-family: 'Open Sans', sans-serif, Verdana, Geneva, sans_serif;
-            }
-            
-            li {
-                margin-left: 35px;
-                line-height: 25px;
-                font-size: 17px;
-                font-family: 'Open Sans', sans-serif, Verdana, Geneva, sans_serif;
-                margin-right: 30px;
-            }
-            
-            img {
-                width: 125px;
-                height: 150px;
-            }
-            
-            .div-endereco {
-                width: 75%;
-                float: left;
-            }
-            
-            .div-perfil {
-                width: 10%;
-                float: left;
-            }
-            
-            .div-perfil p {
-                margin-left: 15px;
-            }
-            
-            .div-foto {
-                display: inline;
-            }
-            
-            .center {
-                text-align: center;
-            }
-            
-            .conteiner {
-                max-width: 1130px!important;
-                margin: 0 auto;
-            }
-            
-            li + li {
-                padding-top: 10px;
-            }
-        </style>
     </head>
     <body>
         <div class="conteiner">
@@ -83,7 +27,7 @@
                         <p>Solteiro</p>
                     </div>
                     <div class="div-foto">
-                        <img src="foto.jpg">
+                        <img src="foto.jpg" class="img-responsive">
                     </div>
                 </article>
 
@@ -147,6 +91,15 @@
                     <ul>
                         <li>Rotaract Club de Pains: Presidente Gestão 2.011/12</li>
                     </ul>
+                </article>
+                <article>
+                    <h1>Currículos Relacionados</h1>
+                    <div class="div-curriculos">
+                        <table id="curriculos_relacionados" class="table">
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
                 </article>
             </section>
         </div>
