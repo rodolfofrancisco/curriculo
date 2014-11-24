@@ -3,7 +3,7 @@ $(document).ready(function(){
     $.ajax({
         url: 'http://rarolabs.com.br:88/alunos.json',
         type: 'GET',
-        dataType: 'jsonp',
+        dataType: 'json',
         success: function(data) {
             $.each(data, function(i, aluno) {
                 $('#curriculos_relacionados tbody').append(
