@@ -3,7 +3,6 @@ $(document).ready(function(){
     $.ajax({
         url: 'http://rarolabs.com.br:88/alunos.json',
         type: 'GET',
-        crossDomain : true,
         dataType: 'jsonp',
         success: function(data) {
             $.each(data, function(i, aluno) {
