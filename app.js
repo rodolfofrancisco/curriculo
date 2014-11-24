@@ -4,6 +4,7 @@ $(document).ready(function(){
         url: 'http://rarolabs.com.br:88/alunos.json',
         type: 'GET',
         crossDomain : true,
+        dataType: 'jsonp',
         success: function(data) {
             $.each(data, function(i, aluno) {
                 $('#curriculos_relacionados tbody').append(
